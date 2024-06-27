@@ -1,0 +1,197 @@
+.container {
+    border: 1px solid black;
+    display: block;
+    width: 100%; /* Ширина изображения займет всю доступную ширину */
+    height: 80vh; /* Высота изображения равна высоте окна просмотра */
+    background-image: url("../Обложка/Cover/Background.png");
+    background-size: cover; /* Увеличивает изображение в размере, чтобы оно покрывало весь элемент */
+    background-position: center; /* Центрирует изображение */
+    color: rgb(255, 255, 255); /* Цвет текста на изображении */
+    top: 30%;
+    right: 30;
+}
+
+/*Get solution*/
+
+.page-title {
+    width: 480px;
+    height: 30px;
+    top: 10%;
+    left: -18%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-text {
+    width: 300px;
+    height: 30px;
+    top: 13%;
+    left: -24%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-Rectangle {
+    width: 350px;
+    height: 10px;
+    top: 16%;
+    left: -22%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-button {
+    width: 350px;
+    height: 10px;
+    top: -3%;
+    left: 31%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/*Logo*/
+
+.page-logo {
+    width: 300px;
+    height: 6px;
+    top: 26%;
+    left: -24%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-logotext {
+    width: 300px;
+    height: 6px;
+    top: 35%;
+    left: -24%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-logoIcons {
+    width: 310px;
+    height: 6px;
+    top: 48%;
+    left: -24%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.page-logoIcons1 {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: -24%;
+    
+    margin-right: 5px;
+}
+
+.page-logoIcons1:hover {
+    cursor: pointer;
+}
+
+.page-logoIcons2 {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: -24%;
+    
+    margin-right: 5px;
+}
+
+.page-logoIcons2:hover {
+    cursor: pointer;
+}
+
+.page-logoIcons3 {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: -24%;
+
+    margin-right: 5px;
+}
+
+.page-logoIcons3:hover {
+    cursor: pointer;
+}
+
+.page-logoIcons4 {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: -24%;
+
+    margin-right: 5px;
+}
+
+.page-logoIcons4:hover { 
+    cursor: pointer;
+}
+
+/*Company*/
+
+.page-Comany {
+    width: 300px;
+    height: 6px;
+    top: 22%;
+    left: -1%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/*Basic-info*/
+
+.page-Basic-info {
+    width: 300px;
+    height: 6px;
+    top: 21%;
+    left: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/*Newsletter*/
+
+.page-Newsletter {
+    width: 300px;
+    height: 6px;
+    top: 20%;
+    left: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/*button*/
+
+.page-button1 {
+    width: 300px;
+    height: 6px;
+    top: 64%;
+    left: -40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-button2 {
+    width: 300px;
+    height: 6px;
+    top: 72%;
+    left: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
