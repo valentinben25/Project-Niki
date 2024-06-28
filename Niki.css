@@ -153,9 +153,79 @@
 /*Basic-info*/
 
 .page-Basic-info {
+    width: 280px;
+    height: 11px;
+    top: 22%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+a {
+    color: rgb(188, 188, 188);
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.page-Basic-infocollicone {
     width: 300px;
     height: 6px;
-    top: 21%;
+    top: 30%;
+    left: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.page-Basic-infocoll {
+    width: 300px;
+    height: 6px;
+    top: 26%;
+    left: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.page-Basic-infoemailicone {
+    width: 300px;
+    height: 6px;
+    top: 28%;
+    left: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-Basic-infoemail {
+    width: 300px;
+    height: 6px;
+    top: 24%;
+    left: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.page-Basic-infovector {
+    width: 300px;
+    height: 6px;
+    top: 28%;
+    left: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.page-Newslettervector {
+    width: 300px;
+    height: 6px;
+    top: 26%;
     left: 11%;
     margin-left: auto;
     margin-right: auto;
@@ -167,11 +237,68 @@
 .page-Newsletter {
     width: 300px;
     height: 6px;
-    top: 20%;
+    top: 3%;
     left: 29%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+}
+
+.page-Newslettertext {
+    width: 300px;
+    height: 5px;
+    top: 12%;
+    left: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.page-Newsletteremail{
+    width: 200px;
+    height: 10px;
+    top: 23%;
+    left: 26%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.form-box {
+    padding: 1px 1px;
+    border-radius: 1px;
+    background: rgb(248, 248, 248);
+    position: relative;
+}
+
+.form-box input {
+    font-size: 16px;
+    color: black;
+    padding: 15px 15px;
+    border: none;
+    outline: none;
+}
+
+.form-box button {
+    position: absolute;
+    padding: 14px 20px;
+    bottom: 0;
+    border: none;
+    outline: none;
+    background-color: rgb(7, 109, 210);
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    left: 83%;
+
+}
+
+.form-box button:hover {
+    background-color: rgb(7, 53, 169);
 }
 
 /*button*/
@@ -179,8 +306,8 @@
 .page-button1 {
     width: 300px;
     height: 6px;
-    top: 64%;
-    left: -40%;
+    top: 45%;
+    left: -42%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -189,7 +316,7 @@
 .page-button2 {
     width: 300px;
     height: 6px;
-    top: 72%;
+    top: 52%;
     left: 2%;
     margin-left: auto;
     margin-right: auto;
