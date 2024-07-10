@@ -1,105 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="Niki.css">
-    <title>Тест</title>
-</head>
-<body>
-    <div class="container">
-        <div class="page-title">
-        <img src="img/Get solution/What want about business know tell Us.png">
-        </div>
-        
-        <div class="page-text">
-        <img src="img/Get solution/Excepteur sint occaecat cupidatat non.png">
-        </div>
-
-        <div class="page-Rectangle">
-            <img src="img/Get solution/Rectangle 184.png" width="1000">
-        </div>
-
-        <div class="page-button">
-            <img src="img/Get solution/Button.png" width="220">
-        </div>
-
-        <div class="page-logo">
-            <img src="img/Logo/Logo.png" width="140">
-        </div>
-
-        <div class="page-logotext">
-            <img src="img/Logo/Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum._.png" width="286">
-        </div>
-
-        <div class="page-logoIcons">
-            <img src="img/Logo/1.png" width="1" href="#" class="page-logoIcons1">
-            <img src="img/Logo/2.png" width="1" href="#" class="page-logoIcons2">
-            <img src="img/Logo/3.png" width="1" href="#" class="page-logoIcons3">
-            <img src="img/Logo/4.png" width="1" href="#" class="page-logoIcons4">
-        </div>
+    <head>
+        <meta charsted="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title> Работа с форми</title>
+    </head>
+    <body>
 
         
-        <div class="page-Comany">
-            <img src="img/Company/Company.png" width="116">
-        </div>
+        <div class="form">
+            <h1 class="title">форма</h1>
 
-        <div class="page-Basic-info">
-            <img src="img/Basik Info/Basic Info.png" width="90">
-        </div>
+            <a class="link" href="index.html">Линка</a>
 
-        <div class="page-Basic-infocollicone">
-            <img src="img/Basik Info/Coll.png" width="13">
-        </div>
+            <form action="/" method="post">
+            <fieldset>
+                <legend class="form-title">Информация за контакт</legend>
 
-        <p class="page-Basic-infocoll">
-            <a href="#"> Call: +(111)256 352</a>
-        </p>
-
-        <div class="page-Basic-infoemailicone">
-            <img src="img/Basik Info/Emile.png" width="13">
-        </div>
+                <label for="input_name">Ващо име</label>
+                <div class="form-groum"><input class="form-input" type="text" name="name" id="input_name"></div>
+                
+                <label for="input_name">Ваш телефон</label>
+                <div class="form-groun"><input class="form-input" type="text" name="tel" placeholder="Ваш телефон"></div>
+                
+                <div class="form-groun"><input class="form-input" type="email" name="email" placeholder="Ваш e-mail"></div>
+                </div>
+            </fieldset>
+            
+            
+            <div class="form-fieldset">
+                <h3 class="form-title">Парола</h3>
+                <div class="form-group"><input class="form-input" type="text" name="name" di="input_name"></div>
+                </div>
+            </div>
         
-        <p class="page-Basic-infoemail">
-            <a href="#"> infobilent@gmail.com</a>
-        </p>
+                
+                <div>
+                    <textarea class="form-textarea" name="text" placeholder="За вас"></textarea>
+                </div>
 
-        <div class="page-Basic-infovector">
-            <img src="img/Basik Info/GV4F+H5 London, United Kingdom.png" width="170">
-        </div>
-
-        <div class="page-Newslettervector">
-            <img src="img/Basik Info/Vector.png" width="13">
-        </div>
-
-        <div class="page-Newsletter">
-            <img src="img/Newsletter/Newsletter.png" width="90">
-        </div>
+                <div class="form-group">
+                    <select name="city">
+                          <option>Бату</option>
+                          <option>Варна</option>
+                    </select>
+                </div>
 
 
-        <div class="page-Newslettertext">
-            <img src="img/Newsletter/Lorem ipsum dolor sit amet, consectetur.png" width="180">
-        </div>
+                <div class="form-group">
+                    <label for="male">Мъж</label>
+                    <input type="radio" name="choose_male" di="male" checked>
 
-        <div class="page-Newsletteremail">
-            <form action="#">
-                <div class="form-box">
-                    <input type="text" name="email" placeholder="Enter your email">
-                    <button>
-                        <img src="img/Newsletter/Vector.png" alt="">
-                    </button>
+
+                    <label for="female">Жена</label>
+                    <input type="radio" name="choose_male" di="female">
+                </div>
+                    
+                <div class="form-group">
+                    <label for="photo">Снимка</label>
+                    <input type="file" name="photo" di="female">
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" name="rules_agree" id="rules_agree" checked>
+                    <label for="rules_agree">Прочете ли условия и съгласен ли си с тях?</label>
+                </div>
+
+                <div>
+                <buttom class="btn" type="submit">Изпращане</buttom>
+                <buttom class="btn" type="reset" disabled>Затвори</buttom>
                 </div>
             </form>
         </div>
 
-
-
-    
-        <div class="page-button1">
-            <img src="img/Button/Rectangle 72.png">
-        </div>
-
-        <div class="page-button2">
-            <img src="img/Button/© 2021 . Bilent All Rights Reserved..png" width="240">
-        </div>
     </body>
 </html>
