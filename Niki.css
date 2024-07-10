@@ -6,32 +6,72 @@
     background-image: url("../Обложка/Cover/Background.png");
     background-size: cover; /* Увеличивает изображение в размере, чтобы оно покрывало весь элемент */
     background-position: center; /* Центрирует изображение */
-    color: rgb(255, 255, 255); /* Цвет текста на изображении */
+    color: #ffffff;
+    font-family: Aboreto;
     top: 30%;
     right: 30;
 }
 
+
+/*Шрифт*/
+
+
+h1, h2, p {
+    font-family: "Open_Sans", sans-serif;
+    font-size: 15px;
+}
+
 /*Get solution*/
 
-.page-title {
-    width: 480px;
-    height: 30px;
-    top: 10%;
-    left: -18%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+
+.Get-solution h1 {
+    top: 6%;
+    left: 16%;
+    font-size: 24px;
+    position: absolute;
+    color: #ffffff;
+    
 }
 
-.page-text {
-    width: 300px;
-    height: 30px;
+.Get-solution h2 {
     top: 13%;
-    left: -24%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    left: 16%;
+    font-size: 14px;
+    position: absolute;
+    color: #c7c1c1;
 }
+
+
+.Rectangle-01 {
+    width: 830px;
+    padding: 90px;
+    margin: auto;
+    opacity: 20%;
+    
+
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+
+.page-button {
+    color: #ffffff;
+    background-color: #0c8be7;
+    border: none;
+    padding: 15px 19px;
+    border-radius: 2px;
+    top: 12%;
+    left: 73%;
+    font-size: 12px;
+    position: absolute;
+    outline: none;
+}
+
+.page-button:hover {
+    background-color: #0761c1;
+    color: #b0b1b3;
+    cursor: pointer;
+}
+
 
 .page-Rectangle {
     width: 350px;
@@ -43,233 +83,205 @@
     position: relative;
 }
 
-.page-button {
-    width: 350px;
-    height: 10px;
-    top: -3%;
-    left: 31%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-/*Logo*/
+/* Logo */
 
 .page-logo {
-    width: 300px;
-    height: 6px;
-    top: 26%;
-    left: -24%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    top: 32%;
+    left: 16%;
+    width: 150px;
+    position: absolute;
 }
 
-.page-logotext {
-    width: 300px;
-    height: 6px;
-    top: 35%;
-    left: -24%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-.page-logoIcons {
+.page-logo-text p {
+    top: 38%;
+    left: 16%;
     width: 310px;
-    height: 6px;
-    top: 48%;
-    left: -24%;
+    font-size: 15px;
+    line-height: 25px;
+    position: absolute;
+    color: #c7c1c1;
+}
+
+
+.logo-buttom1 {
+    top: 53%;
+    left: 16%;
+    position: absolute;
+    cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-}
-
-
-.page-logoIcons1 {
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    left: -24%;
     
-    margin-right: 5px;
 }
 
-.page-logoIcons1:hover {
+.logo-buttom1:hover {
+    opacity: 20%;
+}
+
+
+.logo-buttom2 {
+    top: 53%;
+    left: 19%;
+    position: absolute;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-buttom2:hover {
+    opacity: 20%;
+}
+
+.logo-buttom3 {
+    top: 53%;
+    left: 22%;
+    position: absolute;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-buttom3:hover {
+    opacity: 20%;
+}
+
+.logo-buttom4 {
+    top: 53%;
+    left: 25%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
 }
 
-.page-logoIcons2 {
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    left: -24%;
-    
-    margin-right: 5px;
-}
-
-.page-logoIcons2:hover {
-    cursor: pointer;
-}
-
-.page-logoIcons3 {
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    left: -24%;
-
-    margin-right: 5px;
-}
-
-.page-logoIcons3:hover {
-    cursor: pointer;
-}
-
-.page-logoIcons4 {
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    left: -24%;
-
-    margin-right: 5px;
-}
-
-.page-logoIcons4:hover { 
-    cursor: pointer;
+.logo-buttom4:hover {
+    opacity: 20%;
 }
 
 /*Company*/
 
-.page-Comany {
-    width: 300px;
-    height: 6px;
-    top: 22%;
-    left: -1%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.Company-title h1 {
+    top: 31%;
+    left: 39%;
+    font-size: 19px;
+    position: absolute;
+    color: #ffffff;
 }
 
-/*Basic-info*/
 
-.page-Basic-info {
-    width: 280px;
-    height: 11px;
-    top: 22%;
-    left: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+ul {
+    top: 36%;
+    left: 37%;
+    width: 600px;
+    font-size: 15px;
+    position: absolute;
+    color: #c7c1c1;
+
+    line-height: 40px;
+    list-style-type: none;
+    list-style-position: outside;
+    font-family: Tahoma, sans-serif;
 }
 
-a {
-    color: rgb(188, 188, 188);
-    display: inline-block;
+/*Basik Info*/
+
+.Basik-Info-title h1 {
+    top: 31%;
+    left: 51%;
+    font-size: 18px;
+    width: 600px;
+    position: absolute;
+    color: #ffffff;
+}
+
+
+
+.basic-info-coll {
+    top: 40%;
+    left: 53%;
+    position: absolute;
+    color: #c7c1c1;
     text-decoration: none;
 }
 
-
-.page-Basic-infocollicone {
-    width: 300px;
-    height: 6px;
-    top: 30%;
-    left: 11%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.basic-info-coll-icone {
+    top: 40%;
+    left: 51%;
+    position: absolute;
 }
 
-
-.page-Basic-infocoll {
-    width: 300px;
-    height: 6px;
-    top: 26%;
-    left: 13%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.basic-info-coll:hover {
+    opacity: 20%;
 }
 
-
-.page-Basic-infoemailicone {
-    width: 300px;
-    height: 6px;
-    top: 28%;
-    left: 11%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.basic-info-emile {
+    top: 45%;
+    left: 53%;
+    position: absolute;
+    color: #c7c1c1;
+    text-decoration: none;
 }
 
-.page-Basic-infoemail {
-    width: 300px;
-    height: 6px;
-    top: 24%;
-    left: 13%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.basic-info-emile-icone {
+    top: 45%;
+    left: 51%;
+    position: absolute;
 }
 
-
-.page-Basic-infovector {
-    width: 300px;
-    height: 6px;
-    top: 28%;
-    left: 13%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.basic-info-emile:hover {
+    opacity: 20%;
 }
 
-.page-Newslettervector {
-    width: 300px;
-    height: 6px;
-    top: 26%;
-    left: 11%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.basic-info-vector {
+    top: 51%;
+    left: 40%;
+    position: absolute;
+    width: 370px;
+    color: #c7c1c1;
+    text-decoration: none;
+}
+
+.basic-info-vector-icon {
+    top: 51%;
+    left: 51%;
+    position: absolute;
 }
 
 /*Newsletter*/
 
-.page-Newsletter {
-    width: 300px;
-    height: 6px;
-    top: 3%;
-    left: 29%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+
+.Newsletter-title h1 {
+    top: 31%;
+    left: 68%;
+    font-size: 18px;
+    width: 600px;
+    position: absolute;
+    color: #ffffff;
 }
 
-.page-Newslettertext {
-    width: 300px;
-    height: 5px;
-    top: 12%;
-    left: 29%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.Newsletter-text p {
+    top: 37%;
+    left: 68%;
+    width: 210px;
+    font-size: 15px;
+    line-height: 25px;
+    position: absolute;
+    color: #c7c1c1;
 }
 
-
-.page-Newsletteremail{
+.Subscribe {
     width: 200px;
     height: 10px;
-    top: 23%;
-    left: 26%;
+    top: 170px;
+    left: 370px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
-
 
 .form-box {
     padding: 1px 1px;
     border-radius: 1px;
-    background: rgb(248, 248, 248);
+    background: white;
     position: relative;
 }
 
@@ -287,38 +299,37 @@ a {
     bottom: 0;
     border: none;
     outline: none;
-    background-color: rgb(7, 109, 210);
+    background-color: rgb(9, 127, 246);
     cursor: pointer;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 12px;
     border: none;
     left: 83%;
-
 }
+
 
 .form-box button:hover {
-    background-color: rgb(7, 53, 169);
+    background-color: rgb(3, 94, 173);
 }
 
-/*button*/
+/*button-02*/
 
-.page-button1 {
-    width: 300px;
-    height: 6px;
-    top: 45%;
-    left: -42%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.Rectangle-02 {
+    width: 2000px;
+    padding: 165px;
+    margin: auto;
+    opacity: 20%;
+    
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.page-button2 {
-    width: 300px;
-    height: 6px;
-    top: 52%;
-    left: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.Rectangle-text p {
+    top: 74%;
+    left: 42%;
+    width: 240px;
+    font-size: 15px;
+    line-height: 25px;
+    position: absolute;
+    color: #c7c1c1;
 }
