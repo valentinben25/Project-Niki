@@ -28,7 +28,7 @@ body {
   }
   
 
-  @media (max-width: 600px) and (min-width: 390px) {
+  @media screen and (max-width: 600px) {
     .body {
         font-family: Uni Sans;
         display: grid;
@@ -69,7 +69,7 @@ body {
 
 
 
-@media (max-width: 600px) and (min-width: 390px) {
+@media screen and (max-width: 600px) {
     .wrapper {
 
         width: 575px;
@@ -158,7 +158,7 @@ body {
 
 }
 
-@media (max-width: 600px) and (min-width: 390px) {
+@media screen and (max-width: 600px) {
     .title h1 {
         margin-left: 40px;
         display: flex;
@@ -283,7 +283,7 @@ body {
     opacity: 0.5;
 }
 
-@media (max-width: 600px) and (min-width: 390px) {
+@media screen and (max-width: 600px) {
     .logo-title {
         margin-left: 200px;
         display: flex;
@@ -377,7 +377,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-@media (max-width: 600px) and (min-width: 390px) { 
+@media screen and (max-width: 600px) { 
     .Company h1 {
         margin-left: 120px;
         display: block;
@@ -524,7 +524,7 @@ body {
     display: flex;
 }
 
-@media (max-width: 600px) and (min-width: 390px) { 
+@media screen and (max-width: 600px) { 
 .Basik-Info h1 {
         margin-left: 320px;
         display: flex;
@@ -680,7 +680,7 @@ body {
     opacity: 1.0;
 }
 
-@media (max-width: 600px) and (min-width: 390px) { 
+@media screen and (max-width: 600px) { 
       .Newsletter h1 {
         margin-left: 245px;
         display: flex;
@@ -745,7 +745,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-@media (max-width: 600px) and (min-width: 390px) { 
+@media screen and (max-width: 600px) { 
     .border-down {
         border: 1px solid rgb(255, 255, 255);
         margin-top: 150px;
@@ -766,5 +766,3 @@ body {
     }
 
 }
-
-
