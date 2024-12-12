@@ -1,62 +1,114 @@
 body {
-    min-height: 100%;
-    font-family: Uni Sans;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+
+    width: 1500px;
+    height: 200px;
+    max-width: 1600px;
+    margin: 0 auto;
+
+
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+
 
 .body {
     background-color: rgb(255, 255, 255);
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  
+
+  @media (max-width: 600px) and (min-width: 390px) {
+    .body {
+        font-family: Uni Sans;
+        display: grid;
+        flex-direction: column;
+        justify-content: left;
+    
+        background-position: center;
+        background-size: contain;
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+        max-width: 600px;
+        width: 100px;
+        height: 1010px;
+
+    }
+}
 
 /*wrapper*/
 
 .wrapper {
     border: 1px solid rgb(0, 0, 0);
-    width: 2010px;
-    height: 730px;
-    max-width: 2010px;
-    display: grid;
+    height: 688px;
+    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
+    display: grid;
     background-color: rgb(255, 255, 255);
-}
 
-.wrapper {
     background-image: url("img/Cover/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-@media screen and (max-width: 600px) {
+
+
+
+@media (max-width: 600px) and (min-width: 390px) {
     .wrapper {
+
+        width: 575px;
+        height: 1244px;
         max-width: 600px;
-        width: 960px;
-        height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-sizing: border-box;
+        justify-content: left;
+        
+        
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     }
 }
 
 
-/*Get solution*/
-
 .title h1 {
     width: 1172px;
     height: 140px;
-    margin-top: 66px;
-    margin-left: 390px;
+    margin-top: 60px;
+    margin-left: 175px;
     font-family: "Jost", sans-serif;
     color: #ffffff;
-    font-size: 29px;
+    font-size: 27px;
     text-shadow: 5px 5px 5px black;
 }
 
 .Description h2 {
     width: 500px;
-    margin-top: -275px;
-    margin-left: 390px;
+    margin-top: -110px;
+    margin-left: 180px;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15.5px;
     opacity: 0.8;
 
     font-family: "Nunito", sans-serif;
@@ -64,9 +116,9 @@ body {
 
 .btn {
     display: block;
-    width: 205px;
-    height: 55px;
-    margin: -495px 0 0 1415px;
+    width: 175px;
+    height: 50px;
+    margin: -140px 0 0 1155px;
 
     border: 1px solid #000000;
     background-color: #4285F4;
@@ -75,7 +127,7 @@ body {
     
     font-family: inherit;
     font-family: "Jost", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .btn:focus{
@@ -97,35 +149,37 @@ body {
 
 .border-up {
     border: 1px solid rgb(255, 255, 255);
-    margin: -523px 0 0 360px;
-    margin-right: -115px;
-    margin-left: 390px;
-    display: flex;
+    margin: -20px;
+    margin-bottom: 490px;
+    margin-right: 170px;
+    margin-left: 170px;
+    display: grid;
     opacity: 15%;
+
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 390px) {
     .title h1 {
-        margin-left: 23px;
+        margin-left: 40px;
         display: flex;
         margin-top: 20px;
         
-        width: 550px;
+        width: 530px;
     }
 
     .Description h2 {
-        margin-left: 140px;
+        margin-left: 150px;
         display: flex;
-        margin-top: -380px;
+        margin-top: -375px;
         opacity: 0.8;
         
-        width: 550px;
+        width: 285px;
     }
 
     .btn {
         margin-left: 190px;
         display: block;
-        margin-top: -610px;
+        margin-top: -495px;
 
         border: 1px solid #000000;
         background-color: #4285F4;
@@ -141,11 +195,16 @@ body {
 
     .border-up {
         border: 1px solid rgb(255, 255, 255);
-        margin-top: -800px;
-        margin-right: -180px;
-        margin-left: 5px;
-        display: flex;
+        margin: 10px;
+        margin-bottom: 105px;
+        margin-top: -630px;
+        margin-right: -1px;
+        margin-left: -15px;
+        display: grid;
         opacity: 15%;
+
+        
+          
     }
 }
 
@@ -153,16 +212,17 @@ body {
 /*logo*/
 
 .logo-title {
-    width: 162px;
+    width: 150px;
     display: flex;
-    margin: 80px 0 0 390px;
+    margin: -415px 0 0 185px;
 }
 
 .text-logo {
     color: #FFFFFF;
-    font-size: 18px;
-    width: 26%;
-    margin: 4px 0 0 395px;
+    font-size: 16px;
+    width: 21%;
+    margin: -360px 0 0 190px;
+    display: grid;
     line-height: 1.7;
     opacity: 0.8;
     
@@ -174,7 +234,7 @@ body {
 .logo-icon {
     display: block;
     margin-top: 10px;
-    margin-left: 390px; 
+    margin-left: 200px; 
     position: relative; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,7 +243,7 @@ body {
 
 .icon1 {
     margin-right: 5px;
-    width: 38px;
+    width: 30px;
 }
 
 
@@ -194,7 +254,7 @@ body {
 
 .icon2 {
     margin-right: 5px;
-    width: 38px;
+    width: 30px;
 }
 
 .icon2:hover {
@@ -205,7 +265,7 @@ body {
 
 .icon3 {
     margin-right: 5px;
-    width: 38px;
+    width: 30px;
 }
 
 .icon3:hover {
@@ -215,7 +275,7 @@ body {
 
 .icon4 {
     margin-right: 5px;
-    width: 38px;
+    width: 30px;
 }
 
 .icon4:hover {
@@ -223,28 +283,28 @@ body {
     opacity: 0.5;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 390px) {
     .logo-title {
         margin-left: 200px;
         display: flex;
-        margin-top: 30px;
+        margin-top: -820px;
         
         width: 162px;
     }
 
     .text-logo {
-        margin-left: 65px;
+        margin-left: 90px;
         display: flex;
-        margin-top: 10px;
+        margin-top: -770px;
         opacity: 0.8;
         
-        width: 500px;
+        width: 410px;
     }
 
     .logo-icon {
-    display: block;
+    display: flex;
     margin-top: 10px;
-    margin-left: 200px; 
+    margin-left: 220px; 
     position: relative;
     }
 
@@ -257,8 +317,8 @@ body {
     color: #FFFFFF;
     font-size: 23px;
     width: 22%;
-    margin-top: -220px;
-    margin-left: 810px; 
+    margin-top: -245px;
+    margin-left: 580px; 
     line-height: 1.7;
     
     display: grid;
@@ -270,7 +330,7 @@ body {
     font-size: 16px;
     width: 1%;
     margin-top: -4px;
-    margin-left: 810px; 
+    margin-left: 580px; 
     line-height: 2.5;
     opacity: 0.8;
     
@@ -283,7 +343,7 @@ body {
     font-size: 16px;
     width: 10%;
     margin-top: -4px;
-    margin-left: 810px; 
+    margin-left: 580px; 
     line-height: 2.0;
     opacity: 0.8;
     
@@ -296,7 +356,7 @@ body {
     font-size: 16px;
     width: 10%;
     margin-top: -4px;
-    margin-left: 810px; 
+    margin-left: 580px; 
     line-height: 2.0;
     opacity: 0.8;
     
@@ -309,7 +369,7 @@ body {
     font-size: 16px;
     width: 10%;
     margin-top: -4px;
-    margin-left: 810px; 
+    margin-left: 580px; 
     line-height: 2.0;
     opacity: 0.8;
     
@@ -317,7 +377,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-@media screen and (max-width: 600px) { 
+@media (max-width: 600px) and (min-width: 390px) { 
     .Company h1 {
         margin-left: 120px;
         display: block;
@@ -378,7 +438,7 @@ body {
     font-size: 23px;
     width: 22%;
     margin-top: -240px;
-    margin-left: 1043px; 
+    margin-left: 785px; 
     line-height: 1.7;
     display: flex;
     font-family: "Jost", sans-serif;
@@ -389,7 +449,7 @@ body {
     color: #FFFFFF;
     font-size: 17px;
     margin-top: 35px;
-    margin-left: 1075px; 
+    margin-left: 820px; 
     line-height: 1.0;
     opacity: 0.9;
     
@@ -406,7 +466,7 @@ body {
     color: #FFFFFF;
     font-size: 17px;
     margin-top: 23px;
-    margin-left: 1075px; 
+    margin-left: 820px; 
     line-height: 1.0;
     opacity: 0.9;
     
@@ -424,7 +484,7 @@ body {
     font-size: 17.5px;
     width: 14%;
     margin-top: 23px;
-    margin-left: 1075px; 
+    margin-left: 820px; 
     line-height: 1.5;
     opacity: 0.9;
     
@@ -439,8 +499,8 @@ body {
 
 .icon-call {
     width: 14px;
-    margin-top: -135px;
-    margin-left: 1045px; 
+    margin-top: -130px;
+    margin-left: 790px; 
     
     text-decoration: none;
     display: flex;
@@ -448,28 +508,30 @@ body {
 
 .icon-gmile {
     width: 14px;
-    margin-top: 30px;
-    margin-left: 1045px; 
+    margin-top: 24px;
+    margin-left: 790px; 
     
     text-decoration: none;
     display: flex;
 }
 
 .icon-vector {
-    width: 14px;
+    width: 13px;
     margin-top: 30px;
-    margin-left: 1045px; 
+    margin-left: 790px; 
     
     text-decoration: none;
     display: flex;
 }
 
-@media screen and (max-width: 600px) { 
+@media (max-width: 600px) and (min-width: 390px) { 
 .Basik-Info h1 {
         margin-left: 320px;
         display: flex;
         margin-top: -243px;
-        width: 500px;
+        width: 110px;
+
+        overflow: hidden;
 }
 
 .call {
@@ -504,6 +566,8 @@ body {
     
     text-decoration: none;
     display: flex;
+
+    
 }
 
 .icon-gmile {
@@ -550,7 +614,7 @@ body {
     font-size: 23px;
     width: 22%;
     margin-top: -180px;
-    margin-left: 1340px; 
+    margin-left: 1065px; 
     line-height: 1.7;
     
     display: grid;
@@ -562,7 +626,7 @@ body {
     font-size: 18px;
     width: 15%;
     margin-top: 25px;
-    margin-left: 1340px; 
+    margin-left: 1065px; 
     line-height: 1.7;
     opacity: 0.8;
     
@@ -580,11 +644,10 @@ body {
 }
 
 .form-box {
-    padding: 1px 1px;
+    padding: 0;
     border-radius: 1px;
     position: relative;
-    display: flex;
-    margin: 7px 0 0 1340px;
+    margin: 5px 0 0 1063px;
 }
 
 .form-box input {
@@ -592,7 +655,7 @@ body {
     color: black;
     padding: 17px 25px;
     
-    border: none;
+    
     outline: none;
     border-radius: 3px;
     font-family: "Nunito", sans-serif;
@@ -617,13 +680,13 @@ body {
     opacity: 1.0;
 }
 
-@media screen and (max-width: 600px) { 
+@media (max-width: 600px) and (min-width: 390px) { 
       .Newsletter h1 {
         margin-left: 245px;
         display: flex;
         margin-top: 100px;
         
-        width: 500px;
+        width: 120px;
       }
 
 .Newsletter-text {
@@ -635,7 +698,7 @@ body {
 }
 
 .page-Newsletter-email {
-    margin-left: -1180px;
+    margin-left: -900px;
     margin-top: -10px;
     width: 200px;
     height: 10px;
@@ -646,13 +709,14 @@ body {
 }
 
 .form-box input {
-    padding: 18px 25px;
+    padding: 16.5px 25px;
     font-family: "Nunito", sans-serif;
+    display: flex;
 }
 
 
 .form-box button {
-    padding: 19px 24px;
+    padding: 18px 24px;
 }
 
 }
@@ -662,9 +726,9 @@ body {
 
 .border-down {
     border: 1px solid rgb(255, 255, 255);
-    margin: 193px;
+    margin: 205px;
     margin-left: 1px;
-    margin-right: -510px;
+    margin-right: -115px;
     display: flex;
     opacity: 15%;
 }
@@ -673,20 +737,20 @@ body {
     color: #FFFFFF;
     font-size: 10px;
     width: 22%;
-    margin-top: -165px;
-    margin-left: 895px; 
+    margin: -180px;
+    margin-left: 640px; 
     opacity: 0.8;
     
     display: flex;
     font-family: "Nunito", sans-serif;
 }
 
-@media screen and (max-width: 600px) { 
+@media (max-width: 600px) and (min-width: 390px) { 
     .border-down {
         border: 1px solid rgb(255, 255, 255);
-        margin-top: 110px;
-        margin-right: -180px;
-        margin-left: 3px;
+        margin-top: 150px;
+        margin-right: -20px;
+        margin-left: 1px;
         display: flex;
         opacity: 15%;
     }
@@ -694,11 +758,13 @@ body {
     .footer-text {
         margin-left: 180px;
         display: flex;
-        margin-top: -175px;
+        margin-top: -180px;
         opacity: 0.8;
         font-family: "Nunito", sans-serif;
         
-        width: 400px;
+        width: 370px;
     }
 
 }
+
+
